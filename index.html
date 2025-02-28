@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Making App</title>
+    <link rel="stylesheet" href="note.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left_side">
+            <form id="noteForm">
+                <div class="form_box">
+                    <textarea id="noteInput" cols="40" rows="10" 
+                        placeholder="Enter your note here"></textarea>
+                    <input type="color" id="colorPicker">
+                </div>
+                <div class="submit">
+                    <button type="submit" class="add_note">Add Note</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="right_side">
+            <h1 class="heading">My Notes</h1>
+            <div class="note">
+            
+            </div>
+        </div>
+    </div>
+    <script src="note.js"></script>
+</body>
+</html>

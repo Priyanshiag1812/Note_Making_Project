@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+.left_side {
+  width: 50%;
+  height: 100vh;
+  background-color: rgb(245, 214, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#noteInput {
+  padding: 15px;
+  border-radius: 2px;
+  border:none;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px rgb(235, 147, 162)
+}
+.add_note {
+  margin-top: 20px;
+  background-color: cadetblue;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 40px;
+  border: none;
+  width: 140px;
+  height: 40px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+font-weight: 600;
+}
+
+.add_note {
+  background-image: linear-gradient(
+    to right,
+    #f4808e 0%,
+    #9cd6f6 51%,
+    #fa6577 100%
+  );
+}
+
+.add_note:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.right_side {
+  width: 50%;
+  background-color: rgb(232, 246, 246);
+  height: 100vh;
+}
+
+.heading {
+  text-align: center;
+  padding: 10px;
+}
+
+.box {
+  padding: 15px;
+  margin: 10px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+span {
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+}
